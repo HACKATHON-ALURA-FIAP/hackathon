@@ -1,0 +1,30 @@
+.animate {
+  opacity: 0;
+  filter: blur(3px);
+  transition: 1s;
+
+}
+
+.animate.from-top {
+  transform: translateY(-90%);
+
+}
+
+.animate.from-top-two {
+  transform: translateY(-15%);
+
+}
+
+.animate.from-left {
+  transform: translateX(-80%);
+}
+
+.animate.from-right {
+  transform: translateX(0%);
+}
+
+.animate.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translate(0);
+}
