@@ -384,6 +384,9 @@ footer{
     flex-direction: column;
     text-align: center;
     padding-bottom: 1rem;
+    gap: 10px;
+    background-color: var(--color-white);
+    border-radius: 5%;
   }
   .mobile_menu .nav_item{
     display: block;
@@ -392,6 +395,7 @@ footer{
   .mobile_menu .btn_denuncia{
     display: block;
     padding: 1rem 2rem;
+    background-color: var(--color-white);
   }
   .mobile_menu .btn_denuncia button{
     width: 100%;
@@ -434,6 +438,7 @@ footer{
   .main_home{
     align-items: center;
     margin-top: 10%;
+    padding-top: 10%;
 
   }
   .logo-header{
