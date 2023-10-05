@@ -80,6 +80,7 @@ header {
   top: -2%;
   left: 0;
   transition: 1s;
+  z-index: 1;
 }
 
 header.rolagem {
