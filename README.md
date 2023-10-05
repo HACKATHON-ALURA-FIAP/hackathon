@@ -39,11 +39,17 @@ de criar o "Cidadão Alerta", solução projetada para aprimorar a segurança em Emb
 
 ![3](https://github.com/Dannmenezes/ChallengeFIAP/assets/91789535/67e8e0ba-da9e-4444-9ae8-201c37d77272)
 
+## Stack utilizada
+
+**Front-end:** Javascript, Redux, TailwindCSS
+
+**Back-end:** C#, .NET 6.0
+
+
 ## Autores
 
 - [@Marcos Xavier](https://www.github.com/octokatherine)
 - [@Henrique Luvison](https://github.com/henriquevison)
 - [@Danilo Menezes](https://github.com/Dannmenezes)
 - [@Milena Silva](https://github.com/Milena-Silva-Dev)
-
 
