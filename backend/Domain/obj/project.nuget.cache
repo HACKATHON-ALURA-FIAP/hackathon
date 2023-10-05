@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CEk0NYG48yr13c4LyJVPHogv2uygpiNsEmdnEgHXRNKYycUP0VFq/Y9plm569yxuLYm8hE5hkBxZKL1BChXooA==",
+  "success": true,
+  "projectFilePath": "C:\\hackathon\\backend\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\A1931998\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
