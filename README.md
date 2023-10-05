@@ -1,8 +1,8 @@
 
-# Cidadão Alerta
+# CidadÃ£o Alerta
 
 Projeto desenvolvido para o Hack For Change FIAP + ALURA, onde tomamos a iniciativa
-de criar o "Cidadão Alerta", solução projetada para aprimorar a segurança em Embu-Guaçu.
+de criar o "CidadÃ£o Alerta", soluÃ§Ã£o projetada para aprimorar a seguranÃ§a em Embu-GuaÃ§u.
 
 
 ## Funcionalidades
@@ -10,13 +10,13 @@ de criar o "Cidadão Alerta", solução projetada para aprimorar a segurança em Emb
 - Alertas em tempo real
 - Mapa Interativo
 - Perfil de Suspeitos
-- Avisos de Trânsito
-- Notícias Locais
+- Avisos de TrÃ¢nsito
+- NotÃ­cias Locais
 - Comunidade Segura
 - Anonimato Protegido
 
 
-## Demonstração
+## DemonstraÃ§Ã£o
 ![Hackha (4)](https://github.com/Dannmenezes/ChallengeFIAP/assets/91789535/084bbcf6-fc46-4559-96be-ef522fd76890)
 
 ## Endpoints Backend
@@ -26,12 +26,12 @@ de criar o "Cidadão Alerta", solução projetada para aprimorar a segurança em Emb
 
 ## Melhorias
 
-- Implementação de um mapa calor com base nas denuncias feitas pelos usuários.
+- ImplementaÃ§Ã£o de um mapa calor com base nas denuncias feitas pelos usuÃ¡rios.
 
 ![image](https://github.com/Dannmenezes/ChallengeFIAP/assets/91789535/c0728d84-708d-4c11-a04c-b2025df812fc)
 
 
-- Forum de denuncias/avisos populados pelos usuários.
+- Forum de denuncias/avisos populados pelos usuÃ¡rios.
 
 ![1](https://github.com/Dannmenezes/ChallengeFIAP/assets/91789535/01fd475c-6d69-41fd-b275-8f9c3e91d5c8)
 
@@ -41,9 +41,17 @@ de criar o "Cidadão Alerta", solução projetada para aprimorar a segurança em Emb
 
 ## Stack utilizada
 
-**Front-end:** Javascript, Redux, TailwindCSS
-
-**Back-end:** C#, .NET 6.0
+**Front-end:** 
+<div style="display: inline-block"><br/>
+  <img align="center" alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img align="center" alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img align="center" alt="JAVASCRIPT" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+</div><br/>
+**Back-end:** 
+<div style="display: inline-block"><br/>
+  <img align="center" alt="C#" src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white">
+  <img align="center" alt=".NET" src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white">
+</div><br/>
 
 
 ## Autores
