@@ -39,6 +39,12 @@ de criar o "Cidadão Alerta", solução projetada para aprimorar a segurança em
 
 ![3](https://github.com/Dannmenezes/ChallengeFIAP/assets/91789535/67e8e0ba-da9e-4444-9ae8-201c37d77272)
 
+- Graficos de ocorrências 
+
+![image](https://github.com/HACKATHON-ALURA-FIAP/hackathon/assets/91789535/fa7d69e0-3809-4e4c-82aa-0f63ed1def80)
+
+![image](https://github.com/HACKATHON-ALURA-FIAP/hackathon/assets/91789535/19c97e4d-0dc1-4f18-9ca6-8ca803ee9633)
+
 ## Stack utilizada
 
 **Front-end:** 
