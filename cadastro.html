@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="scroll-on-animate.css">
+    <script src="scroll-on-animate.js" defer></script>
+</head>
+
+<body>
+    <header id="header">
+        <nav class="nav_bar">
+            <div class="logo">
+                <a href="#home"> <img class="logo-header" src="img/logo.png" width="200" height="200"></a>
+            </div>
+            <div class="nav_list">
+                <ul>
+                    <li class="nav_item"><a class="nav_link" href="new.html">Home</a></li>
+                    <li class="nav_item"><a class="nav_link" href="new.html">Missão</a></li>
+                    <li class="nav_item"><a class="nav_link" href="new.html">Recursos</a></li>
+                    <li class="nav_item"><a class="nav_link" href="new.html">Forum</a></li>
+                    <li class="nav_item"><a class="nav_link" href="map.html" target="_blank">Mapa de Calor</a></li>
+                </ul>
+            </div>
+            <div class="btn_cadastrar">
+                <a href="cadastro.html" class="button animate from-top"><button>Cadastrar-se</button></a>
+                <a href="logar.html" class="button animate from-top"><button>Entrar</button></a>
+            </div>
+            <div class="mobile_menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile_menu">
+            <ul>
+                <li><a href="new.html">Home</a></li>
+                <li><a href="new.html">Missão</a></li>
+                <li><a href="new.html">Recursos</a></li>
+                <li><a href="new.html">Forum</a></li>
+                <li><a href="map.html">Mapa de Calor</a></li>
+            </ul>
+            <div class="btn_cadastrar">
+                <a href="cadastro.html" class="button animate from-top"><button>Cadastrar-se</button></a>
+                <a href="logar.html" class="button animate from-top"><button>Entrar</button></a>
+            </div>
+        </div>
+    </header>
+    <div class="cadastro">
+        <div class="form_image">
+            <img src="/img/undraw_sign_up_n6im.svg" alt="desenho animado sing up">
+        </div>
+        <div class="form_cadastro">
+            <form action="#">
+                <div class="form_header">
+                    <div class="title_cadastro">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login_button">
+                        <button><a href="#">Entrar</a></button>
+
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <label for="firstname">Primeiro Nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome"
+                            required>
+                    </div>
+                    <div class="input_box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+                    <div class="input_box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="input_box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxxx-xxxx" required>
+                    </div>
+                    <div class="input_box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="**********" required>
+                    </div>
+                    <div class="input_box">
+                        <label for="password">Confirme sua senha</label>
+                        <input id="password" type="password" name="Confirmepassword" placeholder="**********" required>
+                    </div>
+                </div>
+                <div class="gender-inputs">
+                    <div class="gender_title">
+                        <h6>Genero</h6>
+                        <div class="gender_group">
+                            <div class="gender_input">
+                                <input type="radio" id="female" name="gender">
+                                <label for="female">Femenino</label>
+                            </div>
+                            <div class="gender_input">
+                                <input type="radio" id="male" name="gender">
+                                <label for="male">Masculino</label>
+                            </div>
+                            <div class="gender_input">
+                                <input type="radio" id="others" name="gender">
+                                <label for="others">Outros</label>
+                            </div>
+                            <div class="gender_input">
+                                <input type="radio" id="none" name="gender">
+                                <label for="none">Prefiro não dizer</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="continue_button">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

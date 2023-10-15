@@ -81,6 +81,16 @@ var heatmapData = [
   {location: new google.maps.LatLng(-23.8307383580751, -46.786216396989246), weight: 1799},
   {location: new google.maps.LatLng(-23.83615564360428, -46.79162373002533), weight: 1600},
   new google.maps.LatLng(-23.843094229278336, -46.80308989905616),
+  {location: new google.maps.LatLng(-23.83863023299117, -46.81975037422673), weight: 1890},
+  {location: new google.maps.LatLng(-23.83957526704977, -46.818385740264915), weight: 1800},
+  {location: new google.maps.LatLng(-23.834539136809607, -46.822366186481574), weight: 1799},
+  {location: new google.maps.LatLng(-23.831925278685755, -46.82305078392742), weight: 1600},
+  new google.maps.LatLng(-23.83321267625489, -46.821210328786435),
+  {location: new google.maps.LatLng(-23.835436708156493, -46.81573398440485), weight: 1890},
+  {location: new google.maps.LatLng(-23.833578177124274, -46.814989340798384), weight: 1800},
+  {location: new google.maps.LatLng(-23.831384052822393, -46.81475968227298), weight: 1799},
+  {location: new google.maps.LatLng(-23.830590424253945, -46.81830663060987), weight: 1600},
+  new google.maps.LatLng(-23.827509232030256, -46.81899560618611),
   ];
   
   var heatmap = new google.maps.visualization.HeatmapLayer({

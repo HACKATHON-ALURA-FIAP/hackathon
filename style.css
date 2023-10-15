@@ -72,6 +72,7 @@ nav .nav_link:hover::after {
 
 header {
   width: 100%;
+  margin-bottom: 10%;
   padding: 10px 4%;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
@@ -103,7 +104,7 @@ header ul li a {
   text-decoration: none;
 }
 
-.btn_denuncia button {
+.btn_cadastrar button {
   align-items: center;
   font-size: 15px;
   width: 120px;
@@ -114,11 +115,16 @@ header ul li a {
   cursor: pointer;
   transition: 5s ease-in-out;
   border-radius: 5px;
+  transition: 1s;
+}
+.btn_cadastrar button:hover{
+  background-color: #0b4475ac;;
 }
 
-.btn_denuncia {
+.btn_cadastrar {
   display: flex;
   align-items: center;
+  gap: 5%;
 }
 
 .main_content {
@@ -373,6 +379,58 @@ footer {
     font-size: 2.5rem;
   }
 }
+@media screen and (max-width: 1100px){
+  .nav_bar {
+    padding: 1.5rem 4rem;
+  }
+
+  .nav_item {
+    display: none;
+  }
+
+  .btn_cadastrar {
+    display: none;
+  }
+
+  .mobile_menu-icon {
+    display: block;
+  }
+
+  .mobile_menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .mobile_menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+    gap: 10px;
+    background-color: var(--color-white);
+    border-radius: 5%;
+  }
+
+  .mobile_menu .nav_item {
+    display: block;
+    padding-top: 1.2rem;
+  }
+
+  .mobile_menu .btn_cadastrar {
+    display: block;
+    padding: 1rem 2rem;
+    background-color: var(--color-white);
+  }
+
+  .mobile_menu .btn_cadastrar button {
+    width: 100%;
+  }
+
+  .open {
+    display: block;
+  }
+}
 
 @media screen and (max-width: 960px) {
   .title_content {
@@ -411,7 +469,7 @@ footer {
     display: none;
   }
 
-  .btn_denuncia {
+  .btn_cadastrar {
     display: none;
   }
 
@@ -440,13 +498,13 @@ footer {
     padding-top: 1.2rem;
   }
 
-  .mobile_menu .btn_denuncia {
+  .mobile_menu .btn_cadastrar {
     display: block;
     padding: 1rem 2rem;
     background-color: var(--color-white);
   }
 
-  .mobile_menu .btn_denuncia button {
+  .mobile_menu .btn_cadastrar button {
     width: 100%;
   }
 
