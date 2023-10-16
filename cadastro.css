@@ -21,8 +21,7 @@ body {
     height: 80vh;
     margin: 1%;
     display: flex;
-    margin-top: 10%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    margin-top: 13%;
 }
 
 .log_container {
@@ -31,7 +30,7 @@ body {
     margin: 1%;
     display: flex;
     margin-top: 10%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+
 }
 
 .form_image {
@@ -39,7 +38,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ceb887d7;
+    background-color: transparent;
 }
 
 .form_log {
@@ -47,7 +46,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #14476d;
+    background-color: transparent;
+    margin-top: 5%;
 }
 
 .form_cadastro {
@@ -56,8 +56,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: var(--color-white);
-    padding: 3rem;
+    background-color: transparent;
+    padding: 1rem;
 }
 
 .form_sign {
@@ -66,12 +66,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: var(--color-white);
-    padding: 3rem;
+    background-color: transparent;
+    padding: 2rem;
 }
 
 .form_header {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     display: flex;
     justify-content: space-between;
 }
@@ -114,9 +114,11 @@ body {
 
 .input_group {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 1rem;
+    gap: 2%;
 }
 
 .input_box {
@@ -149,7 +151,7 @@ body {
 }
 
 .title_cadastro {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
