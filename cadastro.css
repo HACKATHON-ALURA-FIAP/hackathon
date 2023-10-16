@@ -74,6 +74,7 @@ body {
     margin-bottom: 5%;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .login_button {
