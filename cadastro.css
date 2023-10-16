@@ -114,8 +114,16 @@ body {
 
 .input_group {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 2%;
+}
+
+.input_group-log {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
     gap: 2%;
