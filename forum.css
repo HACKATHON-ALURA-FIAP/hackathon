@@ -13,12 +13,12 @@
     align-items: center;
 }
 
-.chat-box-forum{
+.chat-box-forum {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
+}
+
 /* chat box section */
 
 .chat-box {
@@ -164,7 +164,8 @@
 .chat-btn:hover img {
     transform: rotate(30deg);
 }
-@media screen and (max-width: 1440px){
+
+@media screen and (max-width: 1440px) {
     .chats {
         display: flex;
         flex-direction: column;

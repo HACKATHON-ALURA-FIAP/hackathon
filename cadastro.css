@@ -6,7 +6,8 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
-body{
+
+body {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -14,7 +15,8 @@ body{
     align-items: center;
     background-color: var(--color-neutral-40);
 }
-.cadastro{
+
+.cadastro {
     width: 80%;
     height: 80vh;
     margin: 1%;
@@ -22,7 +24,8 @@ body{
     margin-top: 10%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
 }
-.log_container{
+
+.log_container {
     width: 80%;
     height: 80vh;
     margin: 1%;
@@ -30,21 +33,24 @@ body{
     margin-top: 10%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
 }
-.form_image{
+
+.form_image {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ceb887d7;
 }
-.form_log{
+
+.form_log {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #14476d;
 }
-.form_cadastro{
+
+.form_cadastro {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -53,7 +59,8 @@ body{
     background-color: var(--color-white);
     padding: 3rem;
 }
-.form_sign{
+
+.form_sign {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -62,16 +69,19 @@ body{
     background-color: var(--color-white);
     padding: 3rem;
 }
-.form_header{
+
+.form_header {
     margin-bottom: 10%;
     display: flex;
     justify-content: space-between;
 }
-.login_button{
+
+.login_button {
     display: flex;
     align-items: center;
 }
-.login_button button{
+
+.login_button button {
     border: none;
     background-color: #0067c2ac;
     padding: 0.4rem 1rem;
@@ -79,16 +89,20 @@ body{
     cursor: pointer;
     transition: 1s;
 }
-.login_button button:hover{
-    background-color: #0e5797ac;;
+
+.login_button button:hover {
+    background-color: #0e5797ac;
+    ;
 }
-.login_button button a{
+
+.login_button button a {
     text-decoration: none;
     font-weight: 500;
     color: var(--color-white);
 }
-.form_header h1::after{
-    content:' ';
+
+.form_header h1::after {
+    content: ' ';
     display: block;
     width: 5rem;
     height: 0.3rem;
@@ -97,62 +111,75 @@ body{
     position: absolute;
     border-radius: 10px;
 }
-.input_group{
+
+.input_group {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 1rem;
 }
-.input_box{
+
+.input_box {
     display: flex;
     flex-direction: column;
     margin-bottom: 1.1rem;
 }
-.input_box input{
+
+.input_box input {
     margin: 0.6rem 0;
-    padding:0.8rem 1.2rem;
+    padding: 0.8rem 1.2rem;
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 6px #0000001c;
 }
-.input_box input:hover{
+
+.input_box input:hover {
     background-color: #eeeeee75;
 }
-.input_box input:focus-visible{
+
+.input_box input:focus-visible {
     outline: 1px solid var(--color-padrao);
 }
+
 .input_box label,
 .gender_title h6 {
     font-size: 1rem;
     font-weight: 600;
     color: #000000c0;
 }
-.title_cadastro{
+
+.title_cadastro {
     font-size: 2rem;
     font-weight: 600;
 }
-.input_box input::placeholder{
+
+.input_box input::placeholder {
     color: #000000be;
 }
-.gender_group{
+
+.gender_group {
     display: flex;
     justify-content: space-between;
     margin-top: 0.62rem;
     padding: 0 0 .5rem;
 }
-.gender_input{
+
+.gender_input {
     display: flex;
     align-items: center;
 }
-.gender_input input{
+
+.gender_input input {
     margin-right: 0.35rem;
 }
-.gender_input label{
+
+.gender_input label {
     font-size: 1rem;
     font-weight: 500;
     color: #000000c0;
 }
-.continue_button button{
+
+.continue_button button {
     width: 100%;
     margin-top: 2.5rem;
     border: none;
@@ -162,46 +189,53 @@ body{
     cursor: pointer;
     transition: 1s;
 }
-.continue_button button:hover{
+
+.continue_button button:hover {
     background-color: #105da0ac;
 }
-.continue_button button a{
+
+.continue_button button a {
     text-decoration: none;
     font-size: 0.93rem;
-    font-weight:500;
+    font-weight: 500;
     color: #fff;
 }
 
-@media screen and (max-width: 1600px){
-    .form_image{
+@media screen and (max-width: 1600px) {
+    .form_image {
         display: none;
     }
-    .cadastro{
+
+    .cadastro {
         width: 50%;
     }
-    .form_cadastro{
+
+    .form_cadastro {
         width: 100%;
     }
 
 }
-@media screen and (max-width:1535px){
-    .cadastro{
+
+@media screen and (max-width:1535px) {
+    .cadastro {
         display: flex;
         margin-top: 20%;
         justify-content: end;
         width: 50%;
         height: 90vh;
+    }
 }
-}
-@media screen and (max-width:1120px){
-    .cadastro{
+
+@media screen and (max-width:1120px) {
+    .cadastro {
         display: flex;
         margin-top: 30%;
         justify-content: end;
         width: 50%;
         height: 100vh;
     }
-    .input_group{
+
+    .input_group {
         display: flex;
         flex-direction: column;
         overflow-y: scroll;
@@ -209,23 +243,27 @@ body{
         max-height: 15rem;
         padding-right: 1rem;
     }
-    .gender_inputs{
+
+    .gender_inputs {
         margin-top: 2rem;
     }
-    .gender_group{
+
+    .gender_group {
         flex-direction: column;
     }
-    .gender_input{
+
+    .gender_input {
         margin-top: 0.5rem;
     }
-    .title_cadastro{
+
+    .title_cadastro {
         font-size: 1rem;
         padding-right: 2%;
     }
 }
 
-@media screen and (max-width:850px){
-    .cadastro{
+@media screen and (max-width:850px) {
+    .cadastro {
         display: flex;
         margin-top: 100%;
         justify-content: end;
@@ -233,7 +271,8 @@ body{
         height: auto;
         z-index: 0;
     }
-    .form_log{
+
+    .form_log {
         width: 60%;
         display: flex;
         flex-direction: column;
@@ -241,13 +280,15 @@ body{
         align-items: center;
         background-color: transparent;
     }
-    .log_container{
+
+    .log_container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .form_sign{
+
+    .form_sign {
         background-color: transparent;
     }
 }
