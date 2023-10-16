@@ -84,6 +84,26 @@ header {
   z-index: 1;
 }
 
+.header_map {
+  width: 100%;
+  margin-top: 5%;
+  padding: 10px 4%;
+  position: fixed;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  position: fixed;
+  top: -2%;
+  left: 0;
+  transition: 1s;
+  z-index: 1;
+}
+
+.logo-header-map {
+  background-color: #14466dc3;
+  border-radius: 50%;
+}
+
 header.rolagem {
   background-color: #ffffff;
   box-shadow: 0px 3px 10px #464646;
@@ -366,6 +386,10 @@ footer {
     font-size: 1.7rem;
   }
 
+  .header_map {
+    margin-top: 8%;
+  }
+
   .description_content {
     font-size: 1.3rem;
   }
@@ -388,6 +412,10 @@ footer {
   .logo-header {
     width: 150px;
     height: 150px;
+  }
+
+  .header_map {
+    margin-top: 12%;
   }
 
   .nav_bar {
@@ -452,6 +480,10 @@ footer {
     font-size: 1.5rem;
   }
 
+  .header_map {
+    margin-top: 15%;
+  }
+
   .description_content {
     font-size: 1.1rem;
   }
@@ -478,6 +510,10 @@ footer {
 @media screen and (max-width: 850px) {
   .nav_bar {
     padding: 1.5rem 4rem;
+  }
+
+  .header_map {
+    margin-top: 17%;
   }
 
   .nav_item {
@@ -564,6 +600,10 @@ footer {
     justify-content: flex-end;
     flex-direction: column;
     align-items: center;
+  }
+
+  .header_map {
+    margin-top: 20%;
   }
 
   .main_home {
