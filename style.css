@@ -380,6 +380,10 @@ footer {
   }
 }
 @media screen and (max-width: 1100px){
+  .logo-header {
+    width: 150px;
+    height: 150px;
+  }
   .nav_bar {
     padding: 1.5rem 4rem;
   }
@@ -411,6 +415,9 @@ footer {
     background-color: var(--color-white);
     border-radius: 5%;
   }
+  .mobile_menu ul li a{
+    color: var(--color-white);
+  }
 
   .mobile_menu .nav_item {
     display: block;
@@ -425,6 +432,7 @@ footer {
 
   .mobile_menu .btn_cadastrar button {
     width: 100%;
+    margin-bottom: 5%;
   }
 
   .open {
@@ -489,7 +497,7 @@ footer {
     text-align: center;
     padding-bottom: 1rem;
     gap: 10px;
-    background-color: var(--color-white);
+    background-color: var(--color-padrao);
     border-radius: 5%;
   }
 
@@ -501,7 +509,8 @@ footer {
   .mobile_menu .btn_cadastrar {
     display: block;
     padding: 1rem 2rem;
-    background-color: var(--color-white);
+    background-color: var(--color-padrao);
+    border-radius: 5%;
   }
 
   .mobile_menu .btn_cadastrar button {

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +17,7 @@
     <link rel="stylesheet" href="cadastro.css">
     <title>Logar-se</title>
 </head>
+
 <body>
     <header id="header">
         <nav class="nav_bar">
@@ -24,10 +26,10 @@
             </div>
             <div class="nav_list">
                 <ul>
-                    <li class="nav_item"><a class="nav_link" href="new.html">Home</a></li>
-                    <li class="nav_item"><a class="nav_link" href="new.html">Missão</a></li>
-                    <li class="nav_item"><a class="nav_link" href="new.html">Recursos</a></li>
-                    <li class="nav_item"><a class="nav_link" href="new.html">Forum</a></li>
+                    <li class="nav_item"><a class="nav_link" href="home.html">Home</a></li>
+                    <li class="nav_item"><a class="nav_link" href="home.html">Missão</a></li>
+                    <li class="nav_item"><a class="nav_link" href="home.html">Recursos</a></li>
+                    <li class="nav_item"><a class="nav_link" href="forum.html">Forum</a></li>
                     <li class="nav_item"><a class="nav_link" href="map.html" target="_blank">Mapa de Calor</a></li>
                 </ul>
             </div>
@@ -40,14 +42,14 @@
             </div>
         </nav>
         <div class="mobile_menu">
+            <div class="btn_cadastrar">
             <ul>
-                <li><a href="new.html">Home</a></li>
-                <li><a href="new.html">Missão</a></li>
-                <li><a href="new.html">Recursos</a></li>
-                <li><a href="new.html">Forum</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="home.html">Missão</a></li>
+                <li><a href="home.html">Recursos</a></li>
+                <li><a href="forum.html">Forum</a></li>
                 <li><a href="map.html">Mapa de Calor</a></li>
             </ul>
-            <div class="btn_cadastrar">
                 <a href="cadastro.html" class="button"><button>Cadastrar-se</button></a>
                 <a href="logar.html" class="button animate from-top"><button>Entrar</button></a>
             </div>
@@ -71,17 +73,20 @@
                 <div class="input_group">
                     <div class="input_box">
                         <label for="email">E-mail</label>
-                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail"
-                            required>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
                     </div>
                     <div class="input_box">
                         <label for="password">Senha</label>
                         <input id="password" type="password" name="Confirmepassword" placeholder="Digite sua senha"
                             required>
                     </div>
-                    </div>
-                    </form>
-                    </div>
-                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="menu.js"></script>
+    <script src="menu-responsivo.js"></script>
+
 </body>
+
 </html>

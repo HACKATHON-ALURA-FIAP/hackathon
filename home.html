@@ -1,53 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cidadão Alerta</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cidadão Alerta</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="icon" href="/img/icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="scroll-on-animate.css">
-    <script src="scroll-on-animate.js" defer></script>
-</head>
-
-<body>
-    <header id="header">
-        <nav class="nav_bar">
-            <div class="logo">
-                <a href="#home"> <img class="logo-header" src="img/logo.png" width="200" height="200"></a>
-            </div>
-            <div class="nav_list">
+        <link rel="stylesheet" href="forum.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="scroll-on-animate.css">
+        <script src="scroll-on-animate.js" defer></script>
+    </head>
+    
+    <body>
+        <header id="header">
+            <nav class="nav_bar">
+                <div class="logo">
+                    <a href="#home"> <img class="logo-header" src="img/logo.png" width="200" height="200"></a>
+                </div>
+                <div class="nav_list">
+                    <ul>
+                        <li class="nav_item"><a class="nav_link" href="#home">Home</a></li>
+                        <li class="nav_item"><a class="nav_link" href="#missao">Missão</a></li>
+                        <li class="nav_item"><a class="nav_link" href="#recursos">Recursos</a></li>
+                        <li class="nav_item"><a class="nav_link" href="forum.html">Forum</a></li>
+                        <li class="nav_item"><a class="nav_link" href="map.html" target="_blank">Mapa de Calor</a></li>
+                    </ul>
+                </div>
+                <div class="btn_cadastrar">
+                    <a href="cadastro.html" class="button animate from-top"><button>Cadastrar-se</button></a>
+                    <a href="logar.html" class="button animate from-top"><button>Entrar</button></a>
+                </div>
+                <div class="mobile_menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
+                </div>
+            </nav>
+            <div class="mobile_menu">
+                <div class="btn_cadastrar">
                 <ul>
-                    <li class="nav_item"><a class="nav_link" href="#home">Home</a></li>
-                    <li class="nav_item"><a class="nav_link" href="#missao">Missão</a></li>
-                    <li class="nav_item"><a class="nav_link" href="#recursos">Recursos</a></li>
-                    <li class="nav_item"><a class="nav_link" href="#">Forum</a></li>
-                    <li class="nav_item"><a class="nav_link" href="map.html" target="_blank">Mapa de Calor</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#missao">Missão</a></li>
+                    <li><a href="#recursos">Recursos</a></li>
+                    <li><a href="forum.html">Forum</a></li>
+                    <li><a href="map.html">Mapa de Calor</a></li>
                 </ul>
-            </div>
-            <div class="btn_cadastrar">
-                <a href="cadastro.html" class="button animate from-top"><button>Cadastrar-se</button></a>
-                <a href="logar.html" class="button animate from-top"><button>Entrar</button></a>
-            </div>
-            <div class="mobile_menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
-            </div>
-        </nav>
-        <div class="mobile_menu">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#missao">Missão</a></li>
-                <li><a href="#recursos">Recursos</a></li>
-                <li><a href="#">Forum</a></li>
-                <li><a href="map.html">Mapa de Calor</a></li>
-            </ul>
-            <div class="btn_cadastrar">
-                <a href="cadastro.html" class="button"><button>Cadastrar-se</button></a>
-                <a href="logar.html" class="button animate from-top"><button>Entrar</button></a>
+                    <a href="cadastro.html" class="button"><button>Cadastrar-se</button></a>
+                    <a href="logar.html" class="button animate from-top"><button>Entrar</button></a>
             </div>
         </div>
     </header>
@@ -60,17 +61,17 @@
                 na manutenção da segurança pública em nossa cidade. Somos um grupo de cidadãos comprometidos com a
                 criação de uma cidade mais segura, onde todos têm a capacidade de contribuir para a proteção de nossa
                 comunidade.</p>
-        </div>
-        <img class="img animate from-top" src="img/7766316_3747738.svg" width="800" height="800" alt="Desenho animado de policiais em posição de sentido.">
-    </section>
-    <section id="missao" class="main_content-two">
-        <img class="img animate from-top" src="img/8725895_3974691.svg" width="500" height="500" alt="Desenho animado de pessoas.">
-        <div class="main_about">
-            <h2 class="title_content animate from-top">Nossa Missão</h2>
-            <p class="description_content animate from-top">Nossa missão é empoderar cada residente a se tornar um
-                guardião ativo da
-                segurança urbana. Acreditamos que juntos podemos fortalecer nossa cidade, compartilhar informações
-                vitais sobre incidentes e trabalhar em conjunto com as autoridades locais para criar um ambiente mais
+            </div>
+            <img class="img animate from-top" src="img/7766316_3747738.svg" width="800" height="800" alt="Desenho animado de policiais em posição de sentido.">
+        </section>
+        <section id="missao" class="main_content-two">
+            <img class="img animate from-top" src="img/8725895_3974691.svg" width="500" height="500" alt="Desenho animado de pessoas.">
+            <div class="main_about">
+                <h2 class="title_content animate from-top">Nossa Missão</h2>
+                <p class="description_content animate from-top">Nossa missão é empoderar cada residente a se tornar um
+                    guardião ativo da
+                    segurança urbana. Acreditamos que juntos podemos fortalecer nossa cidade, compartilhar informações
+                    vitais sobre incidentes e trabalhar em conjunto com as autoridades locais para criar um ambiente mais
                 seguro para todos.</p>
         </div>
     </section>
@@ -138,6 +139,8 @@
             </div>
         </div>
     </section>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="forum.js"></script>
     <script src="menu.js"></script>
     <script src="menu-responsivo.js"></script>
     <div class="font">
@@ -195,7 +198,14 @@
             </div>
     </div>
 
-    </footer>
+     </footer>
+      <!-- chat box -->
+      <div class="chat-box-forum">
+        <a href="forum.html"></a>
+        <!-- button -->
+        <div class="chat-btn">
+            <a href="forum.html"><img src="/img/Circle-icons-chat.svg.png" alt="chat box icone"></a>
+        </div>
 </body>
 
 </html>

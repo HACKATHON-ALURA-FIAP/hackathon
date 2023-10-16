@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum Cidadão Alerta</title>
+    <link rel="stylesheet" href="forum.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="/img/icon.png" type="image/x-icon">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="cadastro.css">
+<link rel="stylesheet" href="scroll-on-animate.css">
+<script src="scroll-on-animate.js" defer></script>
+</head>
+
+<body>
+    <header id="header">
+        <nav class="nav_bar">
+            <div class="logo">
+                <a href="#home"> <img class="logo-header" src="img/logo.png" width="200" height="200"></a>
+            </div>
+            <div class="nav_list">
+                <ul>
+                    <li class="nav_item"><a class="nav_link" href="home.html">Home</a></li>
+                    <li class="nav_item"><a class="nav_link" href="home.html">Missão</a></li>
+                    <li class="nav_item"><a class="nav_link" href="home.html">Recursos</a></li>
+                    <li class="nav_item"><a class="nav_link" href="forum.html">Forum</a></li>
+                    <li class="nav_item"><a class="nav_link" href="map.html" target="_blank">Mapa de Calor</a></li>
+                </ul>
+            </div>
+            <div class="btn_cadastrar">
+                <a href="cadastro.html" class="button animate from-top"><button>Cadastrar-se</button></a>
+                <a href="logar.html" class="button animate from-top"><button>Entrar</button></a>
+            </div>
+            <div class="mobile_menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile_menu">
+            <div class="btn_cadastrar">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="home.html">Missão</a></li>
+                <li><a href="home.html">Recursos</a></li>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="map.html">Mapa de Calor</a></li>
+            </ul>
+                <a href="cadastro.html" class="button animate from-top"><button>Cadastrar-se</button></a>
+                <a href="logar.html" class="button animate from-top"><button>Entrar</button></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- chat box -->
+        <div class="chat-box">
+            <!-- client -->
+            <div class="client">
+                <img src="/img/logo.png" alt="logo" />
+                <div class="client-info">
+                    <h2>Cidadão Alerta</h2>
+                    <p>online</p>
+                </div>
+            </div>
+
+            <!-- main chat section -->
+            <div class="chats">
+                <div class="client-chat">Pessoal aconteceu um acidente na sp-214 tudo parado!</div>
+                <div class="my-chat">Nossa ainda bem que você avisou, estava indo viajar com a familia!</div>
+                <div class="client-chat">Cuidado pessoal, estava no ponto de onibus e 2 caras passaram  fazendo arrastão, casaco vermelho, bone da oakley, e o outro estava de casaco preto e tatuagem na perna.</div>
+                <div class="my-chat">Pow acabaram de passar aqui na Emporio Santa luzia, vou atualizar a localização para policia</div>
+                <div class="client-chat">Tudo parado nos  terminais, esta rolando uma greve.</div>
+                <div class="my-chat">De novo aff, obrigado por avisar vou ir de bicicleta para o trabalho kkk</div>
+            </div>
+
+            <!-- input field section -->
+            <div class="chat-input">
+                <input type="text" placeholder="Enter Message" />
+                <button class="send-btn">
+                    <img src="/img/send.png" alt="send-btn">
+                </button>
+            </div>
+        </div>
+
+        <!-- button -->
+        <div class="chat-btn">
+            <img src="/img/Circle-icons-chat.svg.png" alt="chat box icone">
+        </div>
+    </div>
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="forum.js"></script>
+    <script src="menu.js"></script>
+    <script src="menu-responsivo.js"></script>
+</body>
+
+</html>
