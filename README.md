@@ -4,6 +4,8 @@
 Projeto desenvolvido para o Hack For Change FIAP + ALURA, onde tomamos a iniciativa
 de criar o "Cidadão Alerta", solução projetada para aprimorar a segurança em Embu-Guaçu.
 
+## Link publicado
+https://hackathon-alura-fiap.github.io/hackathon/index.html
 
 ## Funcionalidades
 
